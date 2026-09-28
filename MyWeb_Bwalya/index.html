@@ -1,0 +1,343 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bwalya Bwalya - Personal Student Website</title>
+
+    <!-- Connects this HTML page to the CSS file -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+        <p>Bwalya Bwalya | Student ID: 202509266</p>
+    </header>
+
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#hobbies">My Hobbies</a>
+        <a href="#learning">My Learning Plan</a>
+        <a href="#photos">My Photos</a>
+        <a href="#media">My Media</a>
+        <a href="#contact">Contact</a>
+
+        <a href="https://developer.mozilla.org/en-US/docs/Learn"
+           target="_blank">
+            Learn Web Development
+        </a>
+    </nav>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- ABOUT ME -->
+        <section id="about" class="content-section">
+
+            <h2>About Me</h2>
+
+            <p>
+                My name is Bwalya Bwalya and I am a university student
+                interested in learning web technologies and computer-related
+                skills. I enjoy discovering how websites are created and how
+                HTML and CSS can be used to build useful web pages. In my
+                free time, I enjoy watching football, especially supporting
+                Barcelona, reading books, and watching anime. I hope to
+                continue improving my programming skills and become more
+                confident in creating websites and other useful applications.
+            </p>
+
+        </section>
+
+
+        <!-- HOBBIES -->
+        <section id="hobbies" class="content-section">
+
+            <h2>My Hobbies</h2>
+
+            <ul>
+                <li>Watching football - Barcelona fan</li>
+                <li>Reading books</li>
+                <li>Watching anime</li>
+            </ul>
+
+        </section>
+
+
+        <!-- LEARNING PLAN -->
+        <section id="learning" class="content-section">
+
+            <h2>My Learning Plan</h2>
+
+            <p>
+                My goal is to improve my web development skills through
+                regular practice and learning.
+            </p>
+
+            <ol>
+                <li>
+                    Practice HTML and learn how to structure web pages.
+                </li>
+
+                <li>
+                    Learn CSS and improve the design of websites.
+                </li>
+
+                <li>
+                    Practice JavaScript to make websites interactive.
+                </li>
+
+                <li>
+                    Build small websites to improve my practical skills.
+                </li>
+            </ol>
+
+
+            <!-- WEEKLY TABLE -->
+            <table>
+
+                <caption>
+                    My Weekly Web Learning Plan
+                </caption>
+
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Topic</th>
+                        <th>Practice Task</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Monday</td>
+                        <td>HTML</td>
+                        <td>
+                            Practice creating web page structures.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>CSS</td>
+                        <td>
+                            Practice styling a web page.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Friday</td>
+                        <td>JavaScript</td>
+                        <td>
+                            Practice basic interactive features.
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+
+        <!-- PHOTO GALLERY -->
+        <section id="photos" class="content-section">
+
+            <h2>My Photos</h2>
+
+            <div class="gallery">
+
+                <figure>
+
+                    <img src="images/photo1.jpg"
+                         alt="Personal photo 1">
+
+                    <figcaption>
+                        My Photo 1
+                    </figcaption>
+
+                </figure>
+
+
+                <figure>
+
+                    <img src="images/photo2.jpg"
+                         alt="Personal photo 2">
+
+                    <figcaption>
+                        My Photo 2
+                    </figcaption>
+
+                </figure>
+
+
+                <figure>
+
+                    <img src="images/photo3.jpg"
+                         alt="Personal photo 3">
+
+                    <figcaption>
+                        My Photo 3
+                    </figcaption>
+
+                </figure>
+
+            </div>
+
+        </section>
+
+
+        <!-- MEDIA -->
+        <section id="media" class="content-section">
+
+            <h2>My Media</h2>
+
+
+            <!-- VIDEO -->
+            <h3>My Introduction Video</h3>
+
+            <video controls>
+
+                <source src="videos/intro.mp4"
+                        type="video/mp4">
+
+                Your browser does not support the video element.
+
+            </video>
+
+            <p>
+                This video introduces me, my programme, and one web
+                development skill I hope to learn.
+            </p>
+
+
+            <!-- AUDIO -->
+            <h3>My Hobby Audio</h3>
+
+            <audio controls>
+
+                <source src="videos/voice.mp3"
+                        type="audio/mpeg">
+
+                Your browser does not support the audio element.
+
+            </audio>
+
+            <p>
+                In this audio recording, I talk about one of my hobbies
+                and why I enjoy it.
+            </p>
+
+        </section>
+
+
+        <!-- CONTACT FORM -->
+        <section id="contact" class="content-section">
+
+            <h2>Contact Me</h2>
+
+            <form action="#" method="post">
+
+
+                <label for="name">
+                    Name:
+                </label>
+
+                <input type="text"
+                       id="name"
+                       name="name"
+                       required>
+
+
+                <label for="email">
+                    Email:
+                </label>
+
+                <input type="email"
+                       id="email"
+                       name="email"
+                       required>
+
+
+                <label for="topic">
+                    Topic:
+                </label>
+
+                <select id="topic"
+                        name="topic">
+
+                    <option value="web-development">
+                        Web Development
+                    </option>
+
+                    <option value="html">
+                        HTML
+                    </option>
+
+                    <option value="css">
+                        CSS
+                    </option>
+
+                    <option value="javascript">
+                        JavaScript
+                    </option>
+
+                    <option value="other">
+                        Other
+                    </option>
+
+                </select>
+
+
+                <label for="message">
+                    Message:
+                </label>
+
+                <textarea id="message"
+                          name="message"
+                          rows="5"
+                          required>
+                </textarea>
+
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+
+            <p>
+                This form is for browser demonstration only and does not
+                actually send or store your information.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            &copy; 2026 Bwalya Bwalya |
+            ICT251 Web Technologies
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
+```
